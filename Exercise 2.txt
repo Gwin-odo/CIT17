@@ -5,9 +5,9 @@ echo "Exercise 2 <br>";
 
 
 $result = $x + $y ;
- echo "$x + $y = " . ($x + $y) ."\n";
- echo "$x - $y = " . ($x - $y) ."\n";
- echo "$x * $y = " . ($x * $y) ."\n";
- echo "$x / $y = " . ($x / $y) ."\n";
- echo "$x % $y = " . ($x % $y) ."\n";
+ echo "$x + $y = " . ($x + $y) ."<br>";
+ echo "$x - $y = " . ($x - $y) ."<br>";
+ echo "$x * $y = " . ($x * $y) ."<br>";
+ echo "$x / $y = " . ($x / $y) ."<br>";
+ echo "$x % $y = " . ($x % $y) ."<br>";
 ?>
