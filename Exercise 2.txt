@@ -1,5 +1,5 @@
 <?php
-echo "Exercise 2 \n";
+echo "Exercise 2 <br>";
  $x=10; 
  $y=7;
 
