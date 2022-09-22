@@ -1,0 +1,13 @@
+<?php
+echo "Exercise 2 \n";
+ $x=10; 
+ $y=7;
+
+
+$result = $x + $y ;
+ echo "$x + $y = " . ($x + $y) ."\n";
+ echo "$x - $y = " . ($x - $y) ."\n";
+ echo "$x * $y = " . ($x * $y) ."\n";
+ echo "$x / $y = " . ($x / $y) ."\n";
+ echo "$x % $y = " . ($x % $y) ."\n";
+?>
