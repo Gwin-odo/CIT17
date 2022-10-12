@@ -1,6 +1,6 @@
 <?php
 
-$dir = 'ArrayProject';
+$dir = 'movies';
 $files = scandir($dir);
 
 //pre_r($files);
@@ -34,12 +34,12 @@ for ($i = 0; $i <count($files); $i++){
 
 }
 
-echo "<table id = 'ArrayProject' cellpadding = 50>";
+echo "<table id = 'movies' cellpadding = 50>";
 echo "<tr class = 'odd'>";
 
 foreach ($movies as $movie_name => $info){
 	$content = "<td><span class = 'name'> $movie_name</span><br />"
-	. "<img src = 'ArrayProject/$info[image]'><br />"
+	. "<img src = 'movies/$info[image]'><br />"
 	. "<span class = 'year'>( $info[year] ) </span></td>";
 	echo $content;
 }
